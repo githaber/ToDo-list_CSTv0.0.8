@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"></meta>
+<link rel="shortcut icon" href="Images/ToDo.png"></link>
+<link rel = 'stylesheet' type = 'text/css' href = 'style.css'></link>
+<title>To-Do list</title>
+</head>
+<script src = 'jquery.js'></script>
+
+<body>
+
+<div id = 'headerdiv'>
+	<img src = "Images/header.png">
+	<hr id = 'headerhr' />
+</div>
+
+<div id = 'body'>
+	<button id = 'regbutton'>Registration</button>
+</div>
+
+<div id = 'reglift'>
+<form action = 'registration.php' method = 'post'>
+	<input class = 'registration' type = 'text' name = 'nickname' placeholder = 'Nick Name'><br />
+	<input class = 'registration' type = 'text' name = 'firstname' placeholder = 'First Name'><br />
+	<input class = 'registration' type = 'text' name = 'secondname' placeholder = 'Second Name'><br />
+	<input class = 'registration' type = 'password' name = 'password' placeholder = 'Password'><br />
+	<input class = 'registration' type = 'password' name = 'checkpassword' placeholder = 'Verify Password'><br />
+	<input class = 'registration' type = 'email' name = 'email' placeholder = 'E-mail'><br />
+	<input class = 'registration' type = 'date' name = 'date'><br />
+	<button id = 'regbutton1'> Registrate </button>
+</form>
+</div>
+
+<div id = 'login'>
+	<p id ='p'><h3><i>Log in</i></h3></p>
+	
+	<div id = 'userlogin'>
+		<form action = 'login.php' method = 'post'>
+		<input class = 'login' type = 'text' name = 'nickname' placeholder = 'Nick Name'><br />
+		<input class = 'login' type = 'password' name = 'password' placeholder = 'Password'><br />
+		<button id = 'loginbut'> Log In </button>
+	</div>
+</div>
+
+<script language = javascript type = 'text/javascript'>
+	$(document).ready (function (){
+		$('#regbutton').click(function() {
+		$('#reglift').slideToggle (1000/2)
+	});});
+</script>
+
+</body>
+
+<address id = 'address'> <hr />
+	Written by 
+	<a href=mailto:l_gvaramia@cu.edu.ge>Levan Gvaramia</a>.<br />
+	visit us at:<br />
+	www.sct.edu.ge <br />
+	Box 709, Tbilisi<br />
+	Georgia
+</address>
+
+</html>

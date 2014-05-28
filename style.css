@@ -1,0 +1,95 @@
+/*firspage css */
+
+#headerdiv
+		{
+			
+			position: absolute;
+			left: 40px;
+			width: 400px;
+			height:auto;
+			
+			
+		}
+		
+#headerhr
+		{
+			width: 1300px;
+			color: #f00;
+			background-color: navy;
+			height: 5px;
+			border-radius: 5px;
+		}
+		
+#body
+		{
+			position: absolute;
+			right: 100px;
+			top: 120px;
+		}
+		
+#regbutton
+		{
+			width: 200px;
+			height: 25px;
+		}
+		
+#regbutton1
+		{
+			width: 198px;
+			height: 25px;
+		}
+		
+#reglift
+		{
+			position: absolute;
+			right: 100px;
+			top: 145px;
+			border: 1px solid;
+			display: none;
+			
+		}
+input.registration 
+		{
+			margin: auto;
+			width: 193px;
+			
+		}
+	
+#login
+		{
+			position: absolute;
+			top: 200px;
+			left: 100px;
+			color: blue;
+		}
+	
+#userlogin
+		{
+			
+			height: auto;
+			border: 1px solid;
+			border-top-left-radius:3px;
+			border-bottom-right-radius:3px;
+			width: auto;
+		}
+		
+input.login
+		{
+			width: 200px;
+			height: 30px;
+		}
+		
+#loginbut
+		{
+			width: 204px;
+			height:30px;
+			
+		}
+	
+#address
+		{
+			position: absolute;
+			bottom: 20px;
+			left: 45px;
+		}/*firspage css till this line*/
+	
