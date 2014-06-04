@@ -93,3 +93,15 @@ input.login
 			left: 45px;
 		}/*firspage css till this line*/
 	
+#mediaspace
+	{
+		position: absolute;
+		right: 450px;
+		top: 300px;
+	}
+#firspage_video
+	{
+		position: relative;
+		top:200px;
+		left:520px;
+	}

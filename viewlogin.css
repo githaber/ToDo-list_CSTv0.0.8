@@ -1,0 +1,201 @@
+	#logout
+			{
+				
+			}
+		#logoutdiv
+			{	
+				display:none;
+				border solid 1px; 
+				height: 200px;
+				width: 161px;
+				background: silver;
+				position: absolute;
+				top:67px;
+				right: 15px;
+				border-bottom-left-radius:12px;
+				border-bottom-right-radius:12px;
+				outline-color: navy;
+				margin:auto;
+			}
+		
+		#hello 
+			{
+				color: purple;
+			}
+		body 
+			{
+				background-color:#d0e4fe;
+			}
+		#add_task
+			{
+				color:navy;
+			}
+		#leave_blank_line
+			{
+				color:grey;
+			}
+		#save_your_tasks
+			{
+				float-left:80px;
+			}
+		#logout
+			{
+				position: absolute;
+				right: 13px;
+				
+				width: 164px;
+				border-top-right-radius:12px;
+				border-top-left-radius:12px;
+				outline-color:#d0e4fe;
+				background-color: navy;
+			}
+			
+		#textarea
+			{
+				position: absolute;
+				right: 120px;
+				top: 300px;
+				border:solid 1px;
+				width:550px;
+				height:470px;
+				border-radius:16px;
+				position:relative;
+				left:600px;
+				top:-200px;
+				background:green;
+				box-shadow: 10px 10px 15px rgb(12,141,213);
+				background:"ToDo-list.png";
+			}
+			
+		#tasks
+			{
+				background:rgb(111,111,111	);
+				font: normal 14px verdana;
+				padding: 2px 10px;
+				border-bottom: 1px dotted #ccc;
+				text-indent: 25px;
+				height: auto;
+				text-transform: capitalize;
+				resize:none; 
+				border-radius:12px;			
+				width:500px;
+				height:400px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 40;
+			}
+		
+		#tasks:focus
+			{
+				background:white;
+				font: normal 14px verdana;
+				padding: 2px 10px;
+				border-bottom: 1px dotted #ccc;
+				text-indent: 25px;
+				height: auto;
+				text-transform: capitalize;
+				resize:none; 
+				border-radius:12px;			
+				width:500px;
+				height:400px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 40;
+			}
+		
+		#tasks:active
+			{
+				background:red;
+				font: normal 14px verdana;
+				padding: 2px 10px;
+				border-bottom: 1px dotted #ccc;
+				text-indent: 25px;
+				height: auto;
+				text-transform: capitalize;
+				resize:none; 
+				border-radius:12px;			
+				width:500px;
+				height:400px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 40;
+			}
+		
+		#aroundtextarea
+			{
+				position: absoulte;
+				height: 600px;
+				width: 400px;
+				border:solid 1px red;
+				right: 30px;
+			}
+		
+		#addtask
+			{
+				
+				resize:none; 
+				margin:auto;
+				border-top-left-radius:16px;
+				border-top-right-radius:16px;
+				box-shadow: 10px 10px 15px rgb(12,141,213);
+			}
+		
+		#addtask:active
+			{
+				resize:none; 
+				margin:auto;
+				border-top-left-radius:16px;
+				border-top-right-radius:16px;
+				outline-color:white;
+			}
+		
+		#addtask:focus
+			{
+				resize:none; 
+				margin:auto;
+				border-top-left-radius:16px;
+				border-top-right-radius:16px;
+				outline-color:#d0e4fe;
+				
+			}
+		
+		#nexttask 
+			{
+				position: absolute;
+				left 550px;
+				background:white;;
+				border-bottom-left-radius:16px;
+				border-bottom-right-radius:16px;
+				height:45px;
+				width:501px;
+				margine:auto;
+				outline:black;
+				box-shadow: 10px 10px 15px rgb(12,141,213);
+				background-color: green;
+				
+			}
+		
+		#editbut
+			{
+				font-face: 'Comic Sans MS';
+				font-size: larger; color: red; 
+				background-color: navy;
+				border: 3pt ridge lightgrey;
+				border-bottom-left-radius:8px;
+				border-bottom-right-radius:12px;
+				border-top-right-radius:8px;
+				border-top-left-radius:12px;
+			}
+		
+		user
+			{
+				color:red;
+			}
+		
+		#editdiv
+			{
+				
+			}
