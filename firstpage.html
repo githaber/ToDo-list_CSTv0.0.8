@@ -4,6 +4,7 @@
 <meta charset="UTF-8"></meta>
 <link rel="shortcut icon" href="Images/ToDo.png"></link>
 <link rel = 'stylesheet' type = 'text/css' href = 'style.css'></link>
+
 <title>To-Do list</title>
 </head>
 <script src = 'jquery.js'></script>
@@ -18,7 +19,18 @@
 <div id = 'body'>
 	<button id = 'regbutton'>Registration</button>
 </div>
-
+<?php
+if(isset($_SESSION['reg_error'])) {
+?>
+<div id="errorDiv">
+	<?php
+		echo $_SESSION['reg_error'];
+		unset($_SESSION['reg_error']);
+	?>
+</div>
+<?php
+}
+?>
 <div id = 'reglift'>
 <form action = 'registration.php' method = 'post'>
 	<input class = 'registration' type = 'text' name = 'nickname' placeholder = 'Nick Name'><br />
@@ -73,7 +85,7 @@ flashvars='author=Levaniko&description=Nothing is important, just live your life
 
 <script type='text/javascript' src='jwplayer.js'></script>
  
-<div id='mediaspace'>This text will be replaced</div>
+<!--<div id='mediaspace'>This text will be replaced</div>-->
  
 <script type='text/javascript'>
   jwplayer('mediaspace').setup({

@@ -1,8 +1,8 @@
 <?php
 	
 	//there is no empty fields;
-	if (!empty($_POST['name']) && !empty($_POST['password'])) {
-		$name = $_POST['name'];
+	if (!empty(mysql_real_escape_string($_POST['name'])) && !empty mysql_real_escape_string(($_POST['password']))) {
+		$name = mysql_real_escape_string($_POST['name']);
 		$password = $_POST['password'];
 	
 	//else close the connection;
@@ -25,7 +25,7 @@
 					session_start();
 				}
 				//user is inside;
-				$_SESSION['user'] = $_POST['name'];
+				$_SESSION['user'] = mysql_real_escape_string($_POST['name']);
 				include 'viewlogin.php';
 				die();
 			}
