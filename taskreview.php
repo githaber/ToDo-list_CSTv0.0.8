@@ -7,6 +7,7 @@
 <html>
 <head>
 	<link rel = 'stylesheet' type = 'text/css' href = 'taskreview.css'></link>
+	<link rel="shortcut icon" href="Images/ToDo-list.png"></link>
 </head>
 <body>
 <h1 class = 'ToDo-lit'>ToDo-list</h1>

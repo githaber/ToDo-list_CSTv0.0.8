@@ -14,6 +14,7 @@
 
 <head>
 	<link rel = 'stylesheet' type = 'text/css' href = 'viewlogin.css'></link>
+	<link rel="shortcut icon" href="Images/ToDo-list.png"></link>
 </head>
 
 <script src = 'jquery.js'></script>
@@ -29,7 +30,7 @@
 </script>
 
 <!--<marquee id = 'marquee'>Maybe the <mark>best</mark> place for <b>your reclam</b></marquee>-- advertise teaser ----------------->
-<marquee id = 'cu_reclam'><img src="Images/cst_logo.jpg" width="120" height="56" alt="cst" /><cu>Caucasus University</cu><cst>~Caucasus School of Technology</cst> <cstcolor>CS</cstcolor>T</marquee>
+<marquee id = 'cu_reclam'><a href = 'http://10.20.5.198/bk/MyMarket/'><img src = Images/gifi.gif></a><a href = 'http://cu.edu.ge/schools/cst'><img src="Images/cst_logo.jpg" width="120" height="56" alt="cst" /></a><cu>CU</cu><cst>~<cstcolor>CS</cstcolor>T</marquee>
 <marquee><span style = 'color:red;'>The Best Place For Your Reklam</span></marquee>
 
 <button id = 'logout'><h3 id = 'hello'> Hello <user><?php echo " ".$_SESSION['user'];?> </user></h3></button>
@@ -44,7 +45,8 @@
 
 
 <?php
-/*include the link which contains the needed script for connection;*************
+/*****************************************************************************
+include the link which contains the needed script for connection;*************
 include 'connection.php';
 
 if (!empty($_POST['addtask'])) 
@@ -55,7 +57,7 @@ if (!empty($_POST['addtask']))
 		$input = mysqli_query($conn,$sql);
 		mysqli_close($conn);	
 	}
-	*/
+*****************************************************************************/
 ?>
 
 
@@ -309,7 +311,8 @@ $(document).ready(function() {
 function somefunction()
 	{
 		var html = encodeURIComponent($("#tasks").html());
-		$.ajax({
+		$.ajax
+		({
 		   url: "save.php",
 		   data: "content="+html
 		})

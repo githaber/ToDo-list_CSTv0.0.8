@@ -194,8 +194,8 @@ body
 		}
 	#task_review_textarea
 		{
-			min-height: 250px;
+			min-height: 150px;
 			height: auto;
-			width: 700px;
+			width: 550px;
 		}
 	
