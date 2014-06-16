@@ -8,6 +8,7 @@
 <head>
 	<link rel = 'stylesheet' type = 'text/css' href = 'taskreview.css'></link>
 	<link rel="shortcut icon" href="Images/ToDo-list.png"></link>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
 <h1 class = 'ToDo-lit'>ToDo-list</h1>
@@ -73,6 +74,7 @@
     </table>        
 </div>
 <script>
+/***************************************************************************
 function elementSupportsAttribute(element, attribute) {
   var test = document.createElement(element);
   if (attribute in test) {
@@ -103,6 +105,7 @@ if (!elementSupportsAttribute('textarea', 'placeholder')) {
     .attr("placeholder", $("#task_review_textarea").text())
     .text("");
 }
+*************************************************************************/
 </script>
 </body>
 </html>

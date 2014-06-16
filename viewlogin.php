@@ -15,6 +15,7 @@
 <head>
 	<link rel = 'stylesheet' type = 'text/css' href = 'viewlogin.css'></link>
 	<link rel="shortcut icon" href="Images/ToDo-list.png"></link>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 
 <script src = 'jquery.js'></script>
@@ -254,7 +255,7 @@ $(document).ready(function() {
 			{
 				$r= " "."<img src = Images/justshouldremember.png>"."<br />";
 			}
-		if($row['priority'] == 2) // check how important it is ********* normaly important ***********
+		if($row['priority'] == 2) // check how important it is ********* normaly important ......***********
 			{
 				$r= " "."<img src = Images/normalyimportant.png>"."<br />";
 			}
